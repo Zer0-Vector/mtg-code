@@ -36,6 +36,8 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 - Action to open a card in Gatherer. (and other search engines? are there any?)
 - Ability to set "search context" when deckbuilding
   > i.e. set options for `format`, `colors`, etc. that would be included in all searches made from the current deck file's editor.
+- "Code Suggestion" actions (`Ctrl + .`) that would trigger searches for related cards.
+  > Examples: Other red cards, Other 1 mv cards, Other cards with flying.
 
 <!-- ### Change -->
 
