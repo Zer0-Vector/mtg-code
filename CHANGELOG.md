@@ -4,6 +4,41 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 
 ## [Unreleased]
 <!-- The `blockquote`s under the `li` are just notes for development. They may or may not be included in the release's changelog. -->
+
+<!-- collapsible "proposed features" section -->
+<style>
+  details {
+    --clr-bg: #B1C2D3;
+    background-color: rgb(from var(--clr-bg) r g b / 0.1);
+    padding: 0.75em;
+    margin-bottom: 1em;
+    summary h2 {
+      display: inline-block;
+    }
+  }
+</style>
+<details>
+<summary>
+
+## [Proposed]
+</summary>
+
+### Add
+- Deck stats in Outline panel
+  > Show counts for creature/noncreature/land, colors, subtypes, etc.
+
+<!-- ### Change -->
+
+<!-- ### Deprecate -->
+
+<!-- ### Remove -->
+
+<!-- ### Fix -->
+
+<!-- ### Security -->
+
+</details>
+
 ## [1.1.1] - 2023-11-07
 ### Added
 - Show total price of cards in euros and usd in selection in the status bar.
