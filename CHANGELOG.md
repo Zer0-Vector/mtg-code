@@ -38,6 +38,7 @@ All notable changes to the "mtg-code" extension will be documented in this file.
   > i.e. set options for `format`, `colors`, etc. that would be included in all searches made from the current deck file's editor.
 - "Code Suggestion" actions (`Ctrl + .`) that would trigger searches for related cards.
   > Examples: Other red cards, Other 1 mv cards, Other cards with flying.
+- Other deck views, i.e. show images in fanned-out stacks by mana cost with badges showing the number of copies of that card.
 
 <!-- ### Change -->
 
