@@ -52,7 +52,15 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 - Card sorting actions
   > Intended for decklists
 
-<!-- ### Change -->
+### Change
+- Make the card info decorations in the editor less distracting (IMHO)
+  > * Make the info on a "focused" card bright (i.e. line of current cursor or mouse hover). For all others (unfocused), turn the color alpha way down or hide it.
+  > * Use a smaller font. Possibly show the info above the card name (like the "Search Cards," but not a button).
+  >
+  > Other possible changes:
+  > * Settings to toggle showing card info only on focused line or on all lines.
+  > * ***Alternative:*** Don't show card info in editor. Instead, show it in a custom "card info" panel.
+  > * Perhaps having settings to select fields included in the inline info and also having a custom panel with all card details would make the most sense.
 
 <!-- ### Deprecate -->
 
