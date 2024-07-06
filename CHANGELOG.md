@@ -49,6 +49,8 @@ All notable changes to the "mtg-code" extension will be documented in this file.
   > * [Table of symbols](https://scryfall.com/docs/api/colors)
   > * [`/symbology` API](https://scryfall.com/docs/api/card-symbols/all)
 - Localization settings: language, currency
+- Card sorting actions
+  > Intended for decklists
 
 <!-- ### Change -->
 
