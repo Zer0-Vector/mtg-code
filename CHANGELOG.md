@@ -63,6 +63,9 @@ All notable changes to the "mtg-code" extension will be documented in this file.
   > * Perhaps having settings to select fields included in the inline info and also having a custom panel with all card details would make the most sense.
 - Use a `HEAD` request with the `If-None-Match` header using a saved `ETag` to check for stale cached resources.
 - Wrap scryfall API in a `class` to encapsulate the process of requesting, checking cache(s), and parsing responses.
+- Some decklist formats allow a line `CARDNAME` for a single card instead of enforcing `1 CARDNAME`. I think this extension should allow this also.
+  > * An option could be provided to prepend a '`1 `' automatically
+  > * ***and/or*** add a syntax warning squiggle under the first char of that line with a message indicating it's missing a quantity. This would also have a "Quick fix" to prepend the '`1 `'.
 
 <!-- ### Deprecate -->
 
