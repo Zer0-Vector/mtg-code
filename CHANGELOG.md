@@ -39,6 +39,12 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 - "Code Suggestion" actions (`Ctrl + .`) that would trigger searches for related cards.
   > Examples: Other red cards, Other 1 mv cards, Other cards with flying.
 - Other deck views, i.e. show images in fanned-out stacks by mana cost with badges showing the number of copies of that card.
+- Simplified deck probability info (probably another custom panel).
+  > * Initially, this would ignore card draw, ramp, and other resource requirements (e.g. needing a creature to tap so the land makes mana of any color).
+  > * The model should take into account if the land comes into play tapped.
+  > * **Probabilities to compute:**
+  >   * ***P**(drawing CARDNAME by turn X)*
+  >   * ***P**(drawing CARDNAME by turn X && having enough mana to cast it)*
 
 <!-- ### Change -->
 
