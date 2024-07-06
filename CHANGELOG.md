@@ -27,6 +27,7 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 </summary>
 
 ### Add
+- Recognition for deck files vs. scratch.
 
 <!-- ### Change -->
 
