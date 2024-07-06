@@ -4,6 +4,9 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 
 ## [Unreleased]
 <!-- The `blockquote`s under the `li` are just notes for development. They may or may not be included in the release's changelog. -->
+- Deck stats in custom panel
+  > * Show counts for creature/noncreature/land, colors, subtypes, etc.
+  > * Selecting an item from the panel highlights the lines with cards that have that property/quality.
 
 <!-- collapsible "proposed features" section -->
 <style>
@@ -24,8 +27,6 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 </summary>
 
 ### Add
-- Deck stats in Outline panel
-  > Show counts for creature/noncreature/land, colors, subtypes, etc.
 
 <!-- ### Change -->
 
