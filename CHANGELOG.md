@@ -29,6 +29,7 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 ### Add
 - Recognition for deck files vs. scratch.
 - Conversion between different deck formats.
+- Deck legality checking
 
 <!-- ### Change -->
 
