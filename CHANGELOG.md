@@ -62,6 +62,7 @@ All notable changes to the "mtg-code" extension will be documented in this file.
   > * ***Alternative:*** Don't show card info in editor. Instead, show it in a custom "card info" panel.
   > * Perhaps having settings to select fields included in the inline info and also having a custom panel with all card details would make the most sense.
 - Use a `HEAD` request with the `If-None-Match` header using a saved `ETag` to check for stale cached resources.
+- Wrap scryfall API in a `class` to encapsulate the process of requesting, checking cache(s), and parsing responses.
 
 <!-- ### Deprecate -->
 
