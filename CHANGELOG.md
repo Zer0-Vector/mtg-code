@@ -30,6 +30,8 @@ All notable changes to the "mtg-code" extension will be documented in this file.
 - Recognition for deck files vs. scratch.
 - Conversion between different deck formats.
 - Deck legality checking
+- Action to upload deck to deckbuilding site.
+  > On success, append a comment to the deck file with a link to the online decklist, if possible.
 
 <!-- ### Change -->
 
