@@ -34,6 +34,8 @@ All notable changes to the "mtg-code" extension will be documented in this file.
   > On success, append a comment to the deck file with a link to the online decklist, if possible.
 - Action to open a scryfall search in the browser
 - Action to open a card in Gatherer. (and other search engines? are there any?)
+- Ability to set "search context" when deckbuilding
+  > i.e. set options for `format`, `colors`, etc. that would be included in all searches made from the current deck file's editor.
 
 <!-- ### Change -->
 
