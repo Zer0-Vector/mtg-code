@@ -45,6 +45,9 @@ All notable changes to the "mtg-code" extension will be documented in this file.
   > * **Probabilities to compute:**
   >   * ***P**(drawing CARDNAME by turn X)*
   >   * ***P**(drawing CARDNAME by turn X && having enough mana to cast it)*
+- Parse card info and replace the symbol text with the pictograph/svg.
+  > * [Table of symbols](https://scryfall.com/docs/api/colors)
+  > * [`/symbology` API](https://scryfall.com/docs/api/card-symbols/all)
 
 <!-- ### Change -->
 
