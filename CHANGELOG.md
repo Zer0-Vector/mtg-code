@@ -2,6 +2,7 @@
 
 All notable changes to the "mtg-code" extension will be documented in this file.
 ## [Unreleased]
+<!-- The `blockquote`s under the `li` are just notes for development. They may or may not be included in the release's changelog. -->
 
 ## [1.0.0] - 2022-02-28
 ### Added
